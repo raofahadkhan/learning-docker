@@ -1,6 +1,6 @@
 ## How to Containerize Next.js 14 application
 
-Step 1: Clone This Repository
+Step 1: Start Docker Destop
 
 Step 2: Build a docker image
 
