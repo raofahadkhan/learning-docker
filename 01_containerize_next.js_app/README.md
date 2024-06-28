@@ -2,6 +2,10 @@
 
 Step 1: Clone This Repository
 
-Step 2: Open Terminal at the root of this Repository and run the below command
+Step 2: Build a docker image
 
-`docker build -t my-app .`
+`docker build -f Dockerfile.dev -t nextjs-app .`
+
+Step 3: Run a docker container with this image
+
+`docker run -p 3000:3000 nextjs-app`
